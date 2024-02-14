@@ -64,29 +64,41 @@ Specific Results:
 * For Capomulin:
 
 Lower quartile: 32.38
+
 Upper quartile: 40.16
+
 IQR: 7.78
+
 Potential outliers: Values below 20.71 or above 51.83.
 
 * For Ramicane:
 
 Lower quartile: 31.56
+
 Upper quartile: 40.66
+
 IQR: 9.1
+
 Potential outliers: Values below 17.91 or above 54.31.
 
 * For Infubinol:
 
 Lower quartile: 54.05
+
 Upper quartile: 65.53
+
 IQR: 11.48
+
 Potential outliers: Values below 36.83 or above 82.75.
 
 * For Ceftamin:
 
 Lower quartile: 48.72
+
 Upper quartile: 64.3
+
 IQR: 15.58
+
 Potential outliers: Values below 25.35 or above 87.67.
 
 Observations:
