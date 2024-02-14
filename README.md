@@ -1,5 +1,7 @@
 Pymaceuticals Inc. Mouse Study Analysis
+
 Project Overview:
+
 This project involves the analysis of a mouse study conducted by Pymaceuticals Inc. The study explores the effects of various drug regimens on tumor growth in mice. The analysis includes data cleaning, statistical summaries, visualization of key findings, and interpretation of the results.
 
 Project Structure:
