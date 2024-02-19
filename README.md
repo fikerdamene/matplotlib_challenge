@@ -24,7 +24,7 @@ Key Findings:
 
 - Duplicate mouse data was identified and removed.
 
-- The final clean dataset contains information on 249 mice.
+- The final clean dataset contains information on 248 mice.
 
 Summary Statistics:
 
@@ -39,72 +39,12 @@ Bar and Pie Charts:
 - Both Pandas and Pyplot plots serve the same purpose: visualizing the distribution of mice across different drug regimens.
 - The Pandas plot is created directly from the mice_count data, while the Pyplot plot is manually constructed using extracted data.
 
-- In the first pie chart: The line of code calculates the count of each unique value in the "Sex" column.
-Specifically, it counts how many mice are labeled as male and how many are labeled as female.
-The resulting pie chart shows the proportion of female and male mice in the dataset.
+Bar and Pie Charts
+Bar plots are generated using both Pandas and Matplotlib's pyplot to display the total number of rows (Mouse ID/Timepoints) for each drug regimen. Pie charts are generated to visualize the distribution of female versus male mice in the cleaned dataset using both Pandas and Matplotlib.
 
-- The second pie charts depict the distribution of male and female mice in the study. 
 
-Quartiles, Outliers, and Boxplots:
-
-* Summary Statistics and Outliers:
-
-- The snippet iterates through a list of drug names (Capomulin, Ramicane, Infubinol, Ceftamin).
-
-For each drug, it calculates the following:
-
-Quartiles: Lower quartile (25th percentile), median (50th percentile), and upper quartile (75th percentile) of tumor volume.
-
-Interquartile Range (IQR): The difference between the upper and lower quartiles.
-
-Potential Outliers: Values below the lower bound (Q1 - 1.5 * IQR) or above the upper bound (Q3 + 1.5 * IQR).
-
-Specific Results:
-
-* For Capomulin:
-
-Lower quartile: 32.38
-
-Upper quartile: 40.16
-
-IQR: 7.78
-
-Potential outliers: Values below 20.71 or above 51.83.
-
-* For Ramicane:
-
-Lower quartile: 31.56
-
-Upper quartile: 40.66
-
-IQR: 9.1
-
-Potential outliers: Values below 17.91 or above 54.31.
-
-* For Infubinol:
-
-Lower quartile: 54.05
-
-Upper quartile: 65.53
-
-IQR: 11.48
-
-Potential outliers: Values below 36.83 or above 82.75.
-
-* For Ceftamin:
-
-Lower quartile: 48.72
-
-Upper quartile: 64.3
-
-IQR: 15.58
-
-Potential outliers: Values below 25.35 or above 87.67.
-
-Observations:
-
-- The snippet provides insights into the distribution of tumor volumes for different drug regimens.
-- It highlights potential outliers that may require further investigation.
+Quartiles, Outliers, and Boxplots
+The final tumor volume for each mouse across specific treatment regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) is calculated. Quartiles, potential outliers, and boxplots are generated to visualize the distribution of final tumor volumes for each treatment regimen.
 
 
 Box Plot Interpretation:
